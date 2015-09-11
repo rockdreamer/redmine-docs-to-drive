@@ -1,0 +1,13 @@
+CELERY_ENABLE_UTC = True
+CELERY_TIMEZONE = 'Europe/Rome'
+CELERY_TASK_SERIALIZER = 'json'
+CELERYD_FORCE_EXECV = True
+CELERY_ACCEPT_CONTENT = ['json']
+
+BROKER_URL='redis://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+
+REDMINE_TO_DRIVE_DB_URL='mysql+mysqldb://user:password@server/redmine_schema'
+REDMINE_TO_DRIVE_BASE_DIR='Redmine Export'
+REDMINE_TO_DRIVE_DMSF_FOLDER='/your/dmsf/folder/in/redmine'
+REDMINE_TO_DRIVE_FILES_FOLDER='/your/files/folder/in/redmine'

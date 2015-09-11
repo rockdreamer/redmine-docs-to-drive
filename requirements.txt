@@ -1,5 +1,11 @@
 MySQL-python==1.2.5
+SQLAlchemy==1.0.8
+celery==3.1.18
+flower==0.8.3
 google-api-python-client==1.4.1
+psutil==3.2.1
 python-gflags==2.0
 python-magic==0.4.6
-
+redis==2.10.3
+simplejson==3.8.0
+#sqlacodegen==1.1.6
